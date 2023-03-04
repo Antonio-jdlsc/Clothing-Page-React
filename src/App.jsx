@@ -4,6 +4,7 @@ import NarvaroInfo from './Components/NarvaroInfo';
 import CollectionForm from './Components/CollectionForm';
 import Footer from './Components/Footer';
 import ImageCard from './Components/ImageCards'
+import Header from './Components/Header'
 
 const firebaseConfig = {
   apiKey: "AIzaSyCvgvZpx_xqLOJl220s5TY5IzH2fllhGGQ",
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <div>
+      < Header />
       <NarvaroInfo />
       <CollectionForm />
       <Footer />

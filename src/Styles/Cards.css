@@ -1,0 +1,34 @@
+.image-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    background-color: #fff;
+  }
+  
+  .image-carousel__slider {
+    width: 50rem;
+    height: 25rem;
+    position: relative;
+  }
+  
+  .image-carousel__slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .image-carousel__slide--active {
+    opacity: 1;
+  }
+  
+  .image-carousel__slide-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  

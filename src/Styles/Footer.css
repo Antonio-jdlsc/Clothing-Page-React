@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 14px;
+  }
+  
+  .footer__logo {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  .footer__info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer__icon {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .footer__text {
+    margin-right: 10px;
+  }
+  
