@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
+import second from '../Styles/Cards.css';
 
 function ImageCard({ images }) {
   const settings = {
@@ -11,7 +12,7 @@ function ImageCard({ images }) {
   };
 
   return (
-    <Slider {...settings}>
+    <Slider {...settings} className = 'image-carousel'>
       {images.map((image) => (
         <div key={image}>
           <img src={image} alt="" />
