@@ -1,6 +1,6 @@
 import { useState, React } from 'react';
-import firebase from 'firebase/compat/app';
-import 'firebase/compat/firestore';
+
+
 
 function CollectionForm() {
     const [email, setEmail] = useState('');

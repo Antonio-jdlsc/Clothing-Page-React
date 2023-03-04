@@ -1,5 +1,5 @@
-import { initializeApp, firebase } from "firebase/compat/app";
-import 'firebase/compat/firestore';
+import { initializeApp} from "firebase/app";
+import 'firebase/firestore';
 import NarvaroInfo from './Components/NarvaroInfo';
 import CollectionForm from './Components/CollectionForm';
 import Footer from './Components/Footer';
@@ -13,7 +13,7 @@ const firebaseConfig = {
   collection: "vOXoZguRLnZSqi1demK6"
 }
 
-firebase.initializeApp(firebaseConfig);
+initializeApp([firebaseConfig])
 
 function App() {
   const images = [
